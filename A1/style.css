@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --cor-de-fundo:#080808;
+    --texto1:#6fff57;
+    --texto2:#ffffff;
+    --botao-ativo:#3a375e;
+    --botao-inativo:rgla(58,55,94,0.5);
+    --txto-fundo:rgla(58,55,94,0.3);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    font-family:"Orbitron"
+}
