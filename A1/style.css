@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 :root {
-    --cor-de-fundo:#080808;
-    --texto1:#6fff57;
-    --texto2:#ffffff;
-    --botao-ativo:#3a375e;
+    --cor-de-fundo:#000000ab;
+    --texto1:#10ff08;
+    --texto2:#10ff08;
+    --botao-ativo:#000000;
     --botao-inativo:rgla(58,55,94,0.5);
     --txto-fundo:rgla(58,55,94,0.3);
 }
@@ -12,5 +12,35 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--texto1);
-    font-family:"Orbitron"
+    font-family:"Orbitron";
+    font-size: 35px;
 }
+
+.botao{
+    background-color: var(--botao-inativo);
+    font-size: 27px;
+    color: var(--texto1);
+    font-family: "orbitron";
+    justify-content: center;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    width: 80%;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 35px;
+}
+
+
