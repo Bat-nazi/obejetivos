@@ -13,18 +13,18 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--texto1);
     font-family:"Orbitron";
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .botao{
     background-color: var(--botao-inativo);
-    font-size: 22px;
+    font-size: 30px;
     color: var(--texto1);
     font-family: "orbitron";
     justify-content: center;
     display: flex;
     padding: 1em;
-    margin: 15px;
+    margin: 16px;
     align-items: center;
     width: 80%;
     border-radius: 1px;
@@ -38,19 +38,9 @@ body{
 
 .ativo{
     background: var(--botao-ativo);
-    border-bottom: 10px solid #10ff08;
+    border-bottom: 13px solid #10ff08;
     color: antiquewhite;
 }
-
-
-
-
-
-
-
-
-
-
 
 .conteudo-principal{
     display: flex;
@@ -64,7 +54,7 @@ body{
 .titulo-principal{
     text-align: left;
     width: 100%;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 
