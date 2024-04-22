@@ -36,7 +36,7 @@ body{
     display: flex;
 }
 
-.ativo{
+.botao.ativo{
     background: var(--botao-ativo);
     border-bottom: 13px solid #10ff08;
     color: antiquewhite;
@@ -57,7 +57,28 @@ body{
     font-size: 45px;
 }
 
+.abra-texto{
+    background-color: var(--txto-fundo);
+    border-radius: 0 0 40px 40px;
+    padding: 80px;
+}
 
+.abra-conteudo.ativo{
+    display: block;
+}
 
+.abra-conteudo{
+    display: none;
+}
 
+.abra-conteudo-titulo-principal{
+    font-size: 36px;
+    text-align: left;
+    text-transform: uppercase; 
+    color:black;
+}
+
+.abra-conteudo-titulo-secundario{
+    color: aliceblue;
+}
 
