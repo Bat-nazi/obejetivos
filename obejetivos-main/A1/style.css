@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --cor-de-fundo:#000000bd;
+    --texto1:#10ff08;
+    --texto2:#10ff08;
+    --botao-ativo: #000000a4;
+    --botao-inativo:rgla(58,55,94,0.5);
+    --texto-fundo:rgb(104, 248, 99);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    font-family:"Orbitron";
+    font-size: 30px;
+}
+
+.botao{
+    background-color: var(--botao-inativo);
+    font-size: 30px;
+    color: var(--texto1);
+    font-family: "orbitron";
+    justify-content: center;
+    display: flex;
+    padding: 1em;
+    margin: 16px;
+    align-items: center;
+    width: 80%;
+    border-radius: 1px;
+    border-radius: 40px 8px 40px 0;
+    
+}
+
+.botoes{
+    display: flex;
+}
+
+.botao.ativo{
+    background: var(--botao-ativo);
+    border-bottom: 13px solid #10ff08;
+    color: antiquewhite;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 45px;
+}
+
+.abra-textos{
+    background-color: var(--texto-fundo);
+    border-radius: 40px 40px 40px 40px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.abra-conteudo.ativo{
+    display: block;
+}
+
+.abra-conteudo{
+    display: none;
+}
+
+.abra-conteudo-titulo-principal{
+    font-size: 36px;
+    text-align: left;
+    text-transform: uppercase; 
+    color:black;
+}
+
+.abra-conteudo-titulo-secundario{
+    color: aliceblue;
+    text-align: left ;
+}
+
